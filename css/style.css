@@ -1,0 +1,12 @@
+.fundo_nav{
+    background-color: rgb(106, 236, 236);
+}
+
+.cor_nav{
+    color:azure;
+    font-size: 1.2em;
+}
+
+.cor_nav:hover{
+    color: rgb(235, 123, 141);
+}
