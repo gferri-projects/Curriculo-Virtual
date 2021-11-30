@@ -27,22 +27,32 @@ footer{
 /* Configurações sobre */
 #sobre{
     margin-bottom: 10%;
+    height: 500px;
 
 }
 
 .sobre{
     background-color: #ffc2bb;
-    width: 100%;   
+    width: 100%;  
 }
 
 .img-sobre{
     width: 50%;
     border-radius: 300px;
-    margin-left: 5%;
+    margin-left: 7%;
+}
+
+.icone-sobre{
+    width: 50%;
 }
 
 .h-sobre{
     margin-top: 3%;
+    margin-bottom: 5%;
+}
+
+.text-sobre{
+    font-size: 20px;
 }
 
 /*  Fim Configurações sobre */
