@@ -1,3 +1,19 @@
+footer{
+    background-color: aqua;
+    padding: 0px;
+}
+
+.text-footer{
+    text-align: center;
+    margin-top: 3%;
+}
+
+.icon-footer{
+    width: 15%;
+    margin-left: 43%;
+    margin-bottom: 0%;
+}
+
 p{
     font-family: 'Josefin Sans', sans-serif;
 }
@@ -12,12 +28,12 @@ h1, h2, h3, h4, h5, h6{
     text-decoration: none;
     padding: 10px;
     font-family: 'Josefin Sans', sans-serif;
-    font-size: 30px;
+    font-size: 25px;
 
 }
 
 .collapse{
-    margin-left: 20%;
+    margin-left: 35%;
 }
 
 .fundo_nav{
@@ -33,9 +49,9 @@ h1, h2, h3, h4, h5, h6{
     color: rgb(235, 123, 141);
 }
 
-footer{
-    background-color: aqua;
-}
+.h-carro{
+    color: black;
+} 
 
 /* Configurações sobre */
 #sobre{
@@ -125,5 +141,91 @@ footer{
 
 /*.exp{
     background-color: #FDFD96;
-}*/
+} {
+    
+} */
+
+
+/* Configurações contato*/
+#contato{
+    padding-top: 20px;
+}
+
+.contato{
+    background: rgb(253, 253, 161);
+    margin-top: 10%;
+}
+
+.icon-cont{
+    width: 20%;
+    margin-left: 45%;
+    margin-top: 10%;
+    margin-bottom: 30%;
+}
+
+.icon-cont:hover{
+    width: 22%;
+
+}
+
+.h-cont{
+    margin-top: 3%;
+}
+
+.p-cont{
+    margin-top: 15%;
+    margin-bottom: 5%;
+}
+
+.p-cont2{
+    color: rgb(0, 0, 0,.3);
+    text-align: center;
+    font-size: 30px;
+}
+
+.icon-cont-eu{
+    width: 50%;
+    margin-left: 35%;
+}
+/* Fim configurações contato*/
+
+
+@media (max-width: 600px){
+    .h-sobre{
+        margin-top: 10%;
+    }
+    .img-sobre{
+        width: 70%;
+        margin-left: 15%;
+        margin-bottom: 5%;
+    }
+
+    .text-sobre{
+        text-align: justify;
+        margin-bottom: 20%;
+    }
+    .icone-icon-esp{
+        width: 50%;
+        margin-left: 25%;
+    }
+    .h-esp{
+        margin-top: 15%;
+        margin-right: 10%;
+    }
+    .icone-esp2{
+        margin-top: 15%;  
+        margin-bottom: 30%;
+    }
+    .card{
+        left: 10%;
+    }
+    .icon-exp{
+        width: 40%;
+        margin-left: 32%;
+    }
+    
+}
+
+
+
 
