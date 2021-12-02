@@ -19,7 +19,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap" rel="stylesheet">
     
-    <title>Curriculo Julia</title>
+    <title>Julia Granado</title>
   </head>
   <body>
     <!-- Menu -->
@@ -32,38 +32,36 @@
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <ul class="navbar-nav me-auto justify-content-end">
               <li class="nav-item">
-                <a class="nav-link active cor_nav" aria-current="page" href="#">Início</a>
+                <a class="menu" aria-current="page" href="#">Início</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link cor_nav" href="#">Sobre</a>
+                <a class="menu" href="#sobre">Sobre</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link cor_nav" href="#">Especialidades</a>
+                <a class="menu" href="#esp">Especialidades</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link cor_nav" href="#">Experiência</a>
+                <a class="menu" href="#exp">Experiência</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link cor_nav" href="#">Hobbies</a>
+                <a class="menu" href="#hob">Hobbies</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link cor_nav" href="#">Contato</a>
+                <a class="menu" href="#">Contato</a>
               </li>
               <!--<li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                   Dropdown
                 </a>-->
-              
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <!--<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                   <li><a class="dropdown-item" href="#">Action</a></li>
                   <li><a class="dropdown-item" href="#">Another action</a></li>
                   <li><hr class="dropdown-divider"></li>
                   <li><a class="dropdown-item" href="#">Something else here</a></li>
-                </ul>
+                </ul>-->
               </li>
-              
             </ul>
           </div>
         </div>
@@ -124,15 +122,15 @@
           <div class="col-md-4 ">
             <p class="text-sobre">Olá, eu sou a Júlia! Tenho 16 anos e atualmente estou cursando o 1° ano do ensino médio integrado com técnico na Etec Maria Cristina Medeiros. Aprendi a gostar da informática e hoje peguei gosto por isso, e meu objetivo é seguir minha carreira e me especializar nessa área.</p>
           </div>
-          
-          
+ 
         </div>
       </section>
 
       <section id="esp">
         <div class="row">
           <div>
-            <h1 class="text-center">Especialidades</h1>
+            <h1 class="text-center">Habilidades</h1>
+            <p class="p-esp">Linguagens que estou estudando</p>
           </div>
           <div class="col-md-4">
             <img src="img/esperiencias/icones/javascript.png" class="icone-esp" alt="">
@@ -146,44 +144,51 @@
           
         </div> <br>
         <hr>
-        <div class="row">
+        <div>
+          <div>
+            <img src="img/sobre/icone-1.png" class="icone-icon-esp" alt="">
+          </div>
+          <hr> 
+        <div class="row row-esp ">
           <div class="col-md-4">
-            <img src="img/sobre/icone-1.png" class="" alt="">
+            <h2 class="h-esp">Linguagens que pretendo dominar:</h2>
           </div>
-          <div class="col-md-5">
-            <h3 class="h-esp">Linguagem que pretendo dominar:</h3>
-          </div>
-          <div class="col-md-3">
+          <div class="col-md-4">
             <img src="img/esperiencias/icones/python.png" class="icone-esp2" alt="">
+          </div>
+          <div class="col-md-4">
+            <img src="img/esperiencias/icones/java.png" class="icone-esp2" alt="">
           </div>
         </div>
       </section>
 
-      <section id="exp">
+      <section id="exp" class="exp">
         <h1 class="text-center">Experiência</h1>
+        <p class="p-esp">Alguns projetos didáticos que realizei</p>
+        <img src="img/exp/icon-gferri.png" class="icon-exp" alt="">
         <div class="card-group">
-          <div class="card">
+          <div class="card" style="width: 18rem;">
             <img src="img/exp/calculadora.PNG" class="card-img-top" alt="...">
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+              <h5 class="card-title">Calculadora</h5>
+              <p class="card-text">Calculadora simples desencolvida com JavaScript, HTML e CSS.</p>
+              <a href="https://projetos-juliagranado.github.io/Calculadora/" class="btn btn-primary">Veja</a>
             </div>
           </div>
-          <div class="card">
-            <img src="img/exp/calculadora.PNG" class="card-img-top" alt="...">
+          <div class="card" style="width: 18rem;">
+            <img src="img/exp/site.PNG" class="card-img-top" alt="...">
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+              <h5 class="card-title">Contos de Uma Vida</h5>
+              <p class="card-text">Site desenvolvido com intuito didático com template Bootstrap.</p>
+              <a href="#" class="btn btn-primary">Veja</a>
             </div>
           </div>
-          <div class="card">
-            <img src="img/exp/calculadora.PNG" class="card-img-top" alt="...">
+          <div class="card" style="width: 18rem;">
+            <img src="img/exp/bot.PNG" class="card-img-top" alt="...">
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+              <h5 class="card-title">Ahjussi#9993</h5>
+              <p class="card-text">Bot desenvolvido com Python com cunho pessoal para tarefas escolares (Projeto em andamento)</p>
+              <a href="#" class="btn btn-primary">Veja</a>
             </div>
           </div>
         </div>
@@ -216,6 +221,7 @@
     <!-- Fim Rodapé -->
 
     <!-- Optional JavaScript; choose one of the two! -->
+    <script src="js/meuscript.js"></script>
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
