@@ -1,28 +1,21 @@
-footer{
-    background-color: aqua;
-    padding: 0px;
+html{
+    scroll-behavior: smooth;
 }
 
-.text-footer{
-    text-align: center;
-    margin-top: 3%;
-}
-
-.icon-footer{
-    width: 15%;
-    margin-left: 43%;
-    margin-bottom: 0%;
-}
-
+/*-----------------------------
+GERAIS
+-----------------------------*/
 p{
     font-family: 'Josefin Sans', sans-serif;
 }
 
 h1, h2, h3, h4, h5, h6{
     font-family: 'Josefin Sans', sans-serif;
-
 }
 
+/*-----------------------------
+MENU
+-----------------------------*/
 .menu{
     color: black;
     text-decoration: none;
@@ -49,11 +42,35 @@ h1, h2, h3, h4, h5, h6{
     color: rgb(235, 123, 141);
 }
 
+/*-----------------------------
+CARROSSEL
+-----------------------------*/
 .h-carro{
     color: black;
 } 
 
-/* Configurações sobre */
+/*-----------------------------
+FOOTER
+-----------------------------*/
+footer{
+    background-color: aqua;
+    padding: 0px;
+}
+
+.text-footer{
+    text-align: center;
+    margin-top: 3%;
+}
+
+.icon-footer{
+    width: 15%;
+    margin-left: 43%;
+    margin-bottom: 0%;
+}
+
+/*-----------------------------
+#SOBRE
+-----------------------------*/
 #sobre{
     margin-bottom: 10%;
     height: 500px;
@@ -62,7 +79,13 @@ h1, h2, h3, h4, h5, h6{
 
 .sobre{
     background-color: #ffc2bb;
+        
     width: 100%;  
+}
+
+.c-sobre{
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 .img-sobre{
@@ -84,30 +107,35 @@ h1, h2, h3, h4, h5, h6{
     font-size: 20px;
 }
 
-/*  Fim Configurações sobre */
-
-/*  Configurações especialidades */
+/*-----------------------------
+#ESPECIALIDADES
+-----------------------------*/
 #esp{
     margin-bottom: 10%;
 }
 
+.esp{
+
+}
+
 .icone-esp{
-    width: 20%;
-    margin-left: 40%;
+    width: 15%;
+    margin-left: 45%;
     margin-top: 15%;
 
 }
 
 .icone-esp2{
-    width: 25%;
-    margin-left: 20%;
-    margin-top: 55%;
+    width: 20%;
+    margin-left: 10%;
+    margin-top: 60%;
     margin-right: 10%;
 }
 
 .icone-icon-esp{
-    width: 30%;
-    margin-left: 35%;
+    width: 80%;
+    margin-left: 40%;
+    margin-top: 20%;
 }
 
 
@@ -123,15 +151,26 @@ h1, h2, h3, h4, h5, h6{
 }
 
 .row-esp{
-    margin-left: 20%;
+    margin-left: 0 auto;
     margin-bottom: 20%;
 
 }
 
-/*  Fim Configurações especialidades */
+hr{
+    margin-left: 12%;
+    margin-right: 12%;
+}
+
+/*-----------------------------
+#EXPERIÊNCIA
+-----------------------------*/
 
 #exp{
     margin-bottom: 5%;
+}
+
+.exp{
+
 }
 
 .icon-exp{
@@ -139,14 +178,28 @@ h1, h2, h3, h4, h5, h6{
     margin-left: 40%;
 }
 
+.card-group{
+    margin-right: 10%;
+    margin-left: 10%;
+}
+
 /*.exp{
     background-color: #FDFD96;
-} {
-    
-} */
+}*/
+
+/*-----------------------------
+#HOBBIES
+-----------------------------*/
+.p-hob{
+    color: rgb(0, 0, 0,.3);
+    text-align: center;
+    font-size: 30px;
+}
 
 
-/* Configurações contato*/
+/*-----------------------------
+#CONTATO
+-----------------------------*/
 #contato{
     padding-top: 20px;
 }
@@ -157,14 +210,15 @@ h1, h2, h3, h4, h5, h6{
 }
 
 .icon-cont{
-    width: 20%;
+    width: 15%;
     margin-left: 45%;
     margin-top: 10%;
     margin-bottom: 30%;
+    transition: width 2s, height 4s;
 }
 
 .icon-cont:hover{
-    width: 22%;
+    width: 21%;
 
 }
 
@@ -173,6 +227,7 @@ h1, h2, h3, h4, h5, h6{
 }
 
 .p-cont{
+    margin-left: 20%;
     margin-top: 15%;
     margin-bottom: 5%;
 }
@@ -187,8 +242,10 @@ h1, h2, h3, h4, h5, h6{
     width: 50%;
     margin-left: 35%;
 }
-/* Fim configurações contato*/
 
+/*-----------------------------
+MEDIA TELAS PEQUENAS
+-----------------------------*/
 
 @media (max-width: 600px){
     .h-sobre{
@@ -225,6 +282,9 @@ h1, h2, h3, h4, h5, h6{
     }
     
 }
+
+
+
 
 
 
