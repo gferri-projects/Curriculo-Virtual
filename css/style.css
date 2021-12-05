@@ -42,6 +42,7 @@ MENU
     color: rgb(235, 123, 141);
 }
 
+
 /*-----------------------------
 CARROSSEL
 -----------------------------*/
@@ -192,6 +193,8 @@ hr{
     margin-left: 10%;
 }
 
+
+
 /*.exp{
     background-color: #FDFD96;
 }*/
@@ -217,6 +220,11 @@ hr{
 }
 
 .contato{
+    border: solid #FDFD96;
+    border-radius: 20px;
+    width: 70%;
+    margin-left: 15%;
+    margin-bottom: 5%;
     
 }
 
