@@ -352,7 +352,7 @@ MEDIA TELAS PEQUENAS
         margin-left: 40%;}
 
     .card{
-        left: 1%;}
+        left: 2%;}
 
     .icon-exp{
         width: 40%;
@@ -395,6 +395,27 @@ MEDIA TELAS PEQUENAS
 
     
 }
+
+@media (min-width: 1680px){
+    #sobre{
+        margin-bottom: 10%;
+        height: 650px;
+    
+    }
+
+    p{
+        font-size: 30px;
+    }
+
+    footer{
+        background-color: rgb(114, 205, 233);
+        padding: 0px;
+        height: 200px;
+    }
+
+}
+
+
 
 
 
