@@ -1,10 +1,69 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="100" height="80" inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)" sodipodi:docname="favicon-svg.svg" version="1.1" viewBox="0 0 26.458 21.167" xmlns="http://www.w3.org/2000/svg" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd">
-<sodipodi:namedview bordercolor="#666666" borderopacity="1.0" inkscape:current-layer="layer1" inkscape:cx="48.082405" inkscape:cy="61.247825" inkscape:document-units="mm" inkscape:pagecheckerboard="0" inkscape:pageopacity="0.0" inkscape:pageshadow="2" inkscape:window-height="705" inkscape:window-maximized="1" inkscape:window-width="1366" inkscape:window-x="-8" inkscape:window-y="-8" inkscape:zoom="2.6205012" pagecolor="#ffffff" showgrid="false" units="px"/>
-<g inkscape:groupmode="layer" inkscape:label="Camada 1">
-<g transform="matrix(1.2937 0 0 1.2937 -19.545 -4.6039)" fill="#fdfd96" font-family="BELLABOO">
-<text x="21.539083" y="13.734715" font-size="10.565px" stroke-width=".72033" style="line-height:1.25" xml:space="preserve"><tspan x="21.539083" y="13.734715" fill="#fdfd96" font-size="10.565px" stroke-width=".72033" sodipodi:role="line">J</tspan></text>
-<text x="23.828138" y="16.255636" font-size="10.583px" stroke="#fdfd96" stroke-width="0" style="line-height:1.25" xml:space="preserve"><tspan x="23.828138" y="16.255636" fill="#fdfd96" stroke="#fdfd96" stroke-width="0" sodipodi:role="line">G</tspan></text>
-</g>
-</g>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="100"
+   height="80"
+   viewBox="0 0 26.458333 21.166668"
+   version="1.1"
+   id="svg204"
+   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
+   sodipodi:docname="favicon-svg.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview206"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     units="px"
+     inkscape:zoom="2.6205012"
+     inkscape:cx="48.082405"
+     inkscape:cy="61.247825"
+     inkscape:window-width="1366"
+     inkscape:window-height="705"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs201" />
+  <g
+     inkscape:label="Camada 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       id="g29914"
+       transform="matrix(1.2937078,0,0,1.2937078,-19.544955,-4.6038944)">
+      <text
+         xml:space="preserve"
+         style="font-size:10.5648px;line-height:1.25;font-family:BELLABOO;-inkscape-font-specification:BELLABOO;fill:#fdfd96;fill-opacity:1;stroke-width:0.720326"
+         x="21.539083"
+         y="13.734715"
+         id="text3073"><tspan
+           sodipodi:role="line"
+           id="tspan3071"
+           style="font-size:10.5648px;fill:#fdfd96;fill-opacity:1;stroke-width:0.720326"
+           x="21.539083"
+           y="13.734715">J</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:10.5833px;line-height:1.25;font-family:BELLABOO;-inkscape-font-specification:BELLABOO;fill:#fdfd96;fill-opacity:1;stroke:#fdfd96;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         x="23.828138"
+         y="16.255636"
+         id="text4419"><tspan
+           sodipodi:role="line"
+           id="tspan4417"
+           style="fill:#fdfd96;fill-opacity:1;stroke:#fdfd96;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           x="23.828138"
+           y="16.255636">G</tspan></text>
+    </g>
+  </g>
 </svg>

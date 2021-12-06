@@ -1,6 +1,7 @@
 html{
-    scroll-behavior: smooth;
+    
 }
+
 
 /*-----------------------------
 GERAIS
@@ -16,6 +17,7 @@ h1, h2, h3, h4, h5, h6{
 /*-----------------------------
 MENU
 -----------------------------*/
+
 .menu{
     color: black;
     text-decoration: none;
@@ -203,13 +205,61 @@ hr{
 #HOBBIES
 -----------------------------*/
 .hob{
+    margin-top: 10%;
    
 }
 .p-hob{
     color: rgb(0, 0, 0,.3);
     text-align: center;
     font-size: 30px;
+    
 }
+
+.h-hob{
+    margin-top: 5%;
+}
+
+.img-hob{
+    width: 90%;
+    border-radius: 10px;
+    margin-left: 60%;
+    margin-top: 10%;
+    border: solid 5px rgb(235, 123, 141);
+}
+
+.img2-hob{
+    width: 50%;
+    margin-left: 30%;
+    margin-top: 10%;
+    border-radius: 10px;
+}
+
+.img2-hob:hover{
+    width: 51%;
+}
+
+.icon-hob{
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+span{
+    
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 30px;
+    margin-top: 5%;
+
+}
+
+.espaco{
+    margin-bottom: 3%;
+}
+
+.espaco-top{
+    margin-top: 5%;
+}
+
 
 
 /*-----------------------------
@@ -225,6 +275,7 @@ hr{
     width: 70%;
     margin-left: 15%;
     margin-bottom: 5%;
+    margin-top: 10%;
     
 }
 
@@ -301,7 +352,7 @@ MEDIA TELAS PEQUENAS
         margin-left: 40%;}
 
     .card{
-        left: 2%;}
+        left: 1%;}
 
     .icon-exp{
         width: 40%;
@@ -315,7 +366,33 @@ MEDIA TELAS PEQUENAS
         margin-left: 20%;}
     
     .hob{
-        margin-top: 10%;}
+        margin-top: 20%;}
+    
+    .img-hob{
+        margin-left: 8%;
+    }
+
+    .img2-hob{
+        margin-left:30%;
+    }
+    
+    span{
+        font-size: 20px;
+    }
+
+    .espaco-top{
+        margin-top: 15%;
+    }
+
+    .contato{
+        margin-top: 20%;
+    }
+
+    .icon-cont{
+        width: 20%;
+        margin-left: 40%;
+    }
+
     
 }
 
